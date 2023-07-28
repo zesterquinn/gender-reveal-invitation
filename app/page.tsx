@@ -6,11 +6,8 @@ export default function Home() {
       <section className={'flex justify-center  min-h-screen flex-col'}>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-10'}>
           <div>OUR</div>
-
           <div>LITTLE DUCK</div>
-
           <div>IS ABOUT TO</div>
-
           <div>ARRIVE</div>
         </div>
         <div className={'font-leagues-spartan text-3xl text-center self-center text-white tracking-[.15em] mb-10'}>
@@ -30,6 +27,98 @@ export default function Home() {
         <div className={'font-spring text-xl text-white text-center self-center'}>
           parking is available in front or at Petron gasoline
           station beside the establishment
+        </div>
+      </section>
+      <section className={'flex justify-center  min-h-screen flex-col py-20'}>
+        <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-5'}>
+          <div>GIFT IDEAS</div>
+        </div>
+        <div className={'font-sensei-medium text-3xl text-center self-center text-white tracking-[.15em] mb-10'}>
+          <div>
+            NEUTRAL COLORS WILL DO BUT ANY COLOR IS UP TO YOU!
+          </div>
+        </div>
+       <div className={'flex self-center'}>
+         <div className={'grid grid-cols-3 gap-x-20'}>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Baby-Essentials.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby Bath <br/> Essentials</div>
+             </div>
+           </div>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Newborn-Clothes.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby <br/> Clothing</div>
+             </div>
+           </div>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Baby-Comforter-Set.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby <br/> Comforter Set</div>
+             </div>
+           </div>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Baby-Bottles.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby <br/> Bottles</div>
+             </div>
+           </div>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Baby-Diaper.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby <br/> Diaper</div>
+             </div>
+           </div>
+           <div className={'flex items-center flex-col'}>
+             <Image src={'/logos/Baby-Wipes.png'} alt={'baby-bottle'} width={125} height={125}/>
+             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+               <div>Baby <br/> Wipes</div>
+             </div>
+           </div>
+         </div>
+       </div>
+        <div className={'flex self-center mb-10'}>
+          <div className={'flex items-center flex-col mr-10'}>
+            <Image src={'/logos/Baby-Essentials.png'} alt={'baby-bottle'} width={125} height={125}/>
+            <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+              <div>Baby <br/> Toys/Books</div>
+            </div>
+          </div>
+          <div className={'flex items-center flex-col'}>
+            <Image src={'/logos/PS5.png'} alt={'baby-bottle'} width={235} height={0}/>
+            <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
+              <div>PS5</div>
+            </div>
+          </div>
+        </div>
+        <div className={'font-spring text-xl text-white text-center self-center min-w-min'}>
+          YOUR LOVE, PRAYER AND PRESENCE IS ALL WE REQUEST BUT IF YOU DESIRE TO GIVE... HERE ARE SOME GIFT IDEAS YOU MIGHT WANT TO START WITH.
+        </div>
+      </section>
+      <section className={'flex justify-center  min-h-screen flex-col'}>
+        <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-5'}>
+          <div>IF YOU ARE...</div>
+        </div>
+        <div className={'font-sensei-medium text-9xl text-center self-center text-[#1a2d75] mb-5'}>
+          <div>TEAM BOY</div>
+          <div className={'font-spring text-xl text-white'}>
+            IF YOU CAN, PLEASE WEAR BLUE
+          </div>
+        </div>
+        <div className={'font-sensei-medium text-9xl text-center self-center text-[#f77da4] mb-5'}>
+          <div>TEAM GIRL</div>
+          <div className={'font-spring text-xl text-white'}>
+            IF YOU CAN, PLEASE WEAR PINK
+          </div>
+        </div>
+        <div className={'flex self-center -mb-10'}>
+          <div className={'flex items-center flex-col'}>
+            <Image src={'/logos/rsvp-new.png'} alt={'baby-bottle'} width={300} height={150}/>
+          </div>
+        </div>
+        <div className={'font-spring text-2xl text-white text-center self-center min-w-min'}>
+          CLICK ON THE RSVP BUTTON TO CONFIRM YOUR ATTENDANCE
         </div>
       </section>
     </main>
