@@ -1,8 +1,21 @@
 import Image from 'next/image'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <Head>
+        <title>Cool Title</title>
+        <meta property="og:title" content="Gender Reveal" />
+        <meta
+          property="og:description"
+          content="Gender Reveal Invitation for our party"
+        />
+        <meta
+          property="og:image"
+          content="https://example.com/images/cool-page.jpg"
+        />
+      </Head>
       <section className={'flex justify-center  min-h-screen flex-col'}>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-10'}>
           <div>OUR</div>

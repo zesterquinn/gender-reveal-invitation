@@ -1,6 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import Head from 'next/head';
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,18 +16,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <Head>
-      <title>Cool Title</title>
-      <meta property="og:title" content="Gender Reveal" />
-      <meta
-        property="og:description"
-        content="Gender Reveal Invitation for our party"
-      />
-      <meta
-        property="og:image"
-        content="https://example.com/images/cool-page.jpg"
-      />
-    </Head>
       <body className={inter.className}>{children}</body>
     </html>
   )
