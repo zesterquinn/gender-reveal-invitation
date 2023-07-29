@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'Gender Reveal Party Invitation',
   openGraph: {
     type: 'website',
+    url: 'https://gender-reveal-invitation.vercel.app',
     description: 'Gender Reveal Party Invitation',
     title: 'Gender Reveal',
     images: [
