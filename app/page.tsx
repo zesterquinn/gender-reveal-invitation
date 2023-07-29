@@ -3,8 +3,8 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <section className={'flex justify-center  min-h-screen flex-col'}>
+    <main className="min-h-screen overflow-hidden">
+      <section className={'flex justify-center  min-h-screen flex-col sm:mb-0 mb-16'}>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-10'}>
           <div>OUR</div>
           <div>LITTLE DUCK</div>
@@ -30,6 +30,8 @@ export default function Home() {
           station beside the establishment
         </div>
       </section>
+      <div className="bg-contain bg-repeat-space bg-center p-20" style={{"backgroundImage": "url(logos/Duck.png)"}}>
+      </div>
       <section className={'flex justify-center  min-h-screen flex-col py-20'}>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-5'}>
           <div>GIFT IDEAS</div>
@@ -94,9 +96,13 @@ export default function Home() {
           </div>
         </div>
         <div className={'font-spring text-xl text-white text-center self-center min-w-min'}>
-          YOUR LOVE, PRAYER AND PRESENCE IS ALL WE REQUEST BUT IF YOU DESIRE TO GIVE... HERE ARE SOME GIFT IDEAS YOU MIGHT WANT TO START WITH.
+          YOUR LOVE, PRAYER AND PRESENCE IS ALL WE REQUEST BUT IF YOU DESIRE TO GIVE...  <br/> HERE ARE SOME GIFT IDEAS YOU MIGHT WANT TO START WITH.
         </div>
       </section>
+     <div className={'pb-10'}>
+       <div className="bg-contain bg-repeat-space bg-center p-20 mb-16" style={{"backgroundImage": "url(logos/Duck.png)"}}>
+       </div>
+     </div>
       <section className={'flex justify-center  min-h-screen flex-col'}>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-5'}>
           <div>IF YOU ARE...</div>
