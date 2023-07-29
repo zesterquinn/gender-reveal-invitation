@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
        <div className={'flex self-center'}>
-         <div className={'grid grid-cols-3 gap-x-20'}>
+         <div className={'grid grid-cols-3 gap-x-20 uppercase'}>
            <div className={'flex items-center flex-col'}>
              <Image src={'/logos/Baby-Essentials.png'} alt={'baby-bottle'} width={125} height={125}/>
              <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
@@ -78,9 +78,9 @@ export default function Home() {
            </div>
          </div>
        </div>
-        <div className={'flex self-center mb-10'}>
+        <div className={'flex self-center mb-10 uppercase'}>
           <div className={'flex items-center flex-col mr-10'}>
-            <Image src={'/logos/Baby-Essentials.png'} alt={'baby-bottle'} width={125} height={125}/>
+            <Image src={'/logos/toy.png'} alt={'baby-bottle'} width={125} height={125}/>
             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
               <div>Baby <br/> Toys/Books</div>
             </div>
@@ -88,7 +88,7 @@ export default function Home() {
           <div className={'flex items-center flex-col'}>
             <Image src={'/logos/PS5.png'} alt={'baby-bottle'} width={235} height={0}/>
             <div className={'font-leagues-spartan text-xl text-center self-center text-white tracking-[.15em]'}>
-              <div>PS5</div>
+              <div>PS5 <br/> (Request ni Zester)</div>
             </div>
           </div>
         </div>
@@ -100,13 +100,19 @@ export default function Home() {
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#ffd31b] mb-5'}>
           <div>IF YOU ARE...</div>
         </div>
-        <div className={'font-sensei-medium text-9xl text-center self-center text-[#1a2d75] mb-5'}>
+        <div className={'font-sensei-medium text-9xl text-center self-center text-[#1a2d75] mb-10'}>
+          <div className={'flex items-center justify-center'}>
+            <Image src={'/logos/team-boy-new.png'} alt={'baby-bottle'} width={150} height={150}/>
+          </div>
           <div>TEAM BOY</div>
           <div className={'font-spring text-xl text-white'}>
             IF YOU CAN, PLEASE WEAR BLUE
           </div>
         </div>
         <div className={'font-sensei-medium text-9xl text-center self-center text-[#f77da4] mb-5'}>
+          <div className={'flex items-center justify-center'}>
+            <Image src={'/logos/Team-Girl.png'} alt={'baby-bottle'} width={150} height={150}/>
+          </div>
           <div>TEAM GIRL</div>
           <div className={'font-spring text-xl text-white'}>
             IF YOU CAN, PLEASE WEAR PINK
@@ -114,7 +120,9 @@ export default function Home() {
         </div>
         <div className={'flex self-center -mb-10'}>
           <div className={'flex items-center flex-col'}>
-            <Image src={'/logos/rsvp-new.png'} alt={'baby-bottle'} width={300} height={150}/>
+            <a target='_blank' href="https://docs.google.com/forms/d/1LJAeZJgvj3Nf5NkOjj7LrY3j0k1uXSidtXl-epUlReA/edit?ts=64c5174a">
+              <Image src={'/logos/rsvp-new.png'} alt={'baby-bottle'} width={300} height={150}/>
+            </a>
           </div>
         </div>
         <div className={'font-spring text-2xl text-white text-center self-center min-w-min'}>
