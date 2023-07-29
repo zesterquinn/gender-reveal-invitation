@@ -132,7 +132,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className={'font-spring text-2xl text-white text-center self-center min-w-min'}>
+        <div className={'font-spring md:text-2xl text-lg text-white text-center self-center min-w-min mb-10'}>
           CLICK ON THE RSVP BUTTON TO CONFIRM YOUR ATTENDANCE
         </div>
       </section>
