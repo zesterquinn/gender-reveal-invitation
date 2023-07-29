@@ -82,7 +82,7 @@ export default function Home() {
          </div>
        </div>
         <div className={'flex self-center mb-10 uppercase'}>
-          <div className={'flex items-center flex-col mr-10'}>
+          <div className={'flex items-center flex-col mr-0 md:mr-10'}>
             <Image src={'/logos/toy.png'} alt={'toy'} width={125} height={125}/>
             <div className={'font-leagues-spartan md:text-xl text-sm text-center self-center text-white tracking-[.15em]'}>
               <div>Baby <br/> Toys/Books</div>
@@ -104,7 +104,7 @@ export default function Home() {
        </div>
      </div>
       <section className={'flex justify-center  min-h-screen flex-col'}>
-        <div className={'font-sensei-medium md:text-9xl text-7xl text-center self-center text-[#ffd31b] mb-5'}>
+        <div className={'font-sensei-medium md:text-9xl text-6xl text-center self-center text-[#ffd31b] mb-5'}>
           <div>IF YOU ARE...</div>
         </div>
         <div className={'font-sensei-medium md:text-9xl text-6xl text-center self-center text-[#1a2d75] mb-10'}>
